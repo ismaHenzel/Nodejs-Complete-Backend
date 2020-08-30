@@ -1,0 +1,26 @@
+{
+  "name": "fullBackEndProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bee-queue": "^1.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "nodemailer": "^6.4.6",
+    "redis": "^3.0.2"
+  }
+}
